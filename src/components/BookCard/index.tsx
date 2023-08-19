@@ -11,6 +11,7 @@ const BookCard = ({ book }: any) => {
           layout="fill"
           objectFit="cover"
           className="rounded-lg"
+          priority
         />
       </div>
       <div className="flex-grow flex flex-col justify-between w-full md:max-w-80">

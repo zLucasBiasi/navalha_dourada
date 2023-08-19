@@ -5,9 +5,7 @@ import BookCard from "../../components/BookCard";
 import { GET_BOOKS } from "@/services/queries";
 
 const Books = () => {
-  const { loading, error, data } = useQuery(GET_BOOKS);
-  console.log(data);
-  if (loading) return <p>Carregando...</p>;
+  const { error, data } = useQuery(GET_BOOKS);
   if (error) return <p>Erro ao carregar os dados</p>;
 
   return (

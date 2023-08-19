@@ -46,7 +46,13 @@ const Navbar = () => {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <div className="w-48 h-14 relative">
-              <Image fill className="object-cover" src={Logo} alt="" />
+              <Image
+                fill
+                className="object-cover"
+                src={Logo}
+                alt="logo da navalha dourada"
+                priority
+              />
             </div>
           </a>
         </div>
@@ -95,10 +101,16 @@ const Navbar = () => {
 
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#0f0f0f] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <div className="w-48 h-14 relative">
-                <Image fill className="object-cover" src={Logo} alt="" />
+                <Image
+                  fill
+                  className="object-cover"
+                  src={Logo}
+                  alt="navalha dourada"
+                  priority
+                />
               </div>
             </a>
             <button
