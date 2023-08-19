@@ -10,8 +10,10 @@ const Books = () => {
   if (error) return <p>Erro ao carregar os dados</p>;
 
   return (
-    <div className="container mx-auto p-8">
-      <h1 className="text-3xl font-semibold mt-32 p-4">Lista de Livros</h1>
+    <div className="container mx-auto p-3">
+      <h1 className="text-3xl font-semibold mt-20 lg:mt-32 p-4">
+        Lista de Livros
+      </h1>
       <div>
         {data?.booksApi?.map((book: any, index: any) => (
           <BookCard key={index} book={book} />
