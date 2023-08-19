@@ -2,7 +2,7 @@ import { FaPhone, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   const phoneNumber = "+55 11 96214-6755";
-  const instagramUsername = "@navalha_dourada1";
+  const instagramUsername = "navalha_dourada1";
 
   return (
     <div className="px-4 py-8 md:px-6 md:py-16 lg:px-8 lg:text-center flex justify-center items-center h-screen">
@@ -30,7 +30,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="text-base md:text-lg text-[#7D7D7D]"
             >
-              {instagramUsername}
+              @{instagramUsername}
             </a>
           </div>
           <div className="flex items-center lg:justify-center">
